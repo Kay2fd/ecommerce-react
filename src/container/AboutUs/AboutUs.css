@@ -25,15 +25,22 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: right;
+    margin-right: 2rem;
 }
 
-.app__aboutus-content_knife {
-    margin: 2rem 4rem;
+.app__aboutus-content_about,
+.app__aboutus-content_history {
+    padding: 0; 
 }
 
-.app__aboutus-content_knife img {
-    height: 115px;
-    width: 475px;
+.app__aboutus-content_koffe {
+    margin: 0;
+    padding: 0; 
+}
+
+.app__aboutus-content_koffe img {
+    height: auto;
+    width: 5rem;
 }
 
 .app__aboutus-content_history {
@@ -52,13 +59,14 @@
 }
 
 @media screen and (max-width: 2000px) {
-    .app__aboutus-content_knife img {
-        height: 1110px;
+    .app__aboutus-content_koffe img {
+        height: auto; 
+        width: 100%;
     }
 
     .app__aboutus-content_history p,
     .app__aboutus-content_about p {
-        margin: 4rem 0;
+        margin: 2rem 0;
         color: var(--color-grey);
     }
 }
@@ -68,7 +76,7 @@
         flex-direction: column;
     }
 
-    .app__aboutus-content_knife {
+    .app__aboutus-content_koffe {
         margin: 4rem 0;
     }
 }
@@ -76,6 +84,15 @@
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
         width: 80%;
-        height: 320px;
+        height: auto; 
+    }
+
+    .app__aboutus-content_koffe img {
+        width: 80%; 
+        height: auto;
+    }
+
+    .app__aboutus-content_about {
+        margin: 2rem 0; /* Sesuaikan nilai sesuai kebutuhan */
     }
 }

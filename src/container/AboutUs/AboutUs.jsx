@@ -16,8 +16,8 @@ const AboutUs = () => (
         <button type='button' className='custom__button'>Know More</button>
       </div>
 
-      <div className='app__aboutus-content_knife flex__center'>
-        <img src={images.knife} alt='about knife' />
+      <div className='app__aboutus-content_koffe flex__center'>
+        <img src={images.Akoffe} alt='about koffe' />
       </div>
 
       <div className='app__aboutus-content_history'>
