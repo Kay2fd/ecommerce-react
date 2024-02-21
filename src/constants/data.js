@@ -1,28 +1,28 @@
 import images from './images';
 
-const wines = [
+const koffe = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Caramel Macchiato',
     price: '$56',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Vanilla Latte',
     price: '$59',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Hazelnut Latte',
     price: '$44',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Mocha Latte',
     price: '$31',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'White Chocolate Mocha',
     price: '$26',
     tags: 'IE | 750 ml',
   },
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { koffe, cocktails, awards };
