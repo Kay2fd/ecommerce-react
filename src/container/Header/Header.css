@@ -11,23 +11,27 @@
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    line-height: 117px;
-    font-size: 90px;
+    line-height: 100px;
+    font-size: 70px;
 }
 
 .app__header-img img {
-    width: 80%;
+    width: 100%;
 }
 
 .app__wrapper_img {
     width: 100%;
-    margin-top: 20px;
 }
 
 .app__wrapper_info {
     width: 100%;
     text-align: center;
 }
+
+.custom__button:hover {
+    background-color: #995e05;
+    transition: background-color 0.3s ease;
+  }
 
 @media (min-width: 768px) {
     .app__header {

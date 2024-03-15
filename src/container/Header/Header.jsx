@@ -8,15 +8,9 @@ const Header = () => (
   <div className="app__header app__wreaper section__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title="Chase the new flavour" />
-      <h1 className="app__header-h1">The Key to Fine Dining</h1>
+      <h1 className="app__header-h1">JELAJAHI SENSASI KOPI YANG BERBEDA</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        promises a culinary experience beyond compare. Explore a world where
-        every detail, from the exquisite flavors to impeccable service, is
-        thoughtfully curated. This subheading invites you to savor the artistry
-        of presentation and indulge in the sophisticated ambiance that defines
-        upscale dining. Uncover the secrets of gastronomic excellence and let
-        this key unlock a realm where each meal is a refined journey of taste
-        and refinement.
+      Selamat datang di kayffe shop, di mana kami mengundang Anda untuk menjelajahi sensasi kopi yang berbeda yang akan menggugah selera Anda. Di sini, setiap cangkir adalah sebuah perjalanan ke dunia rasa yang unik dan memikat. Dengan setiap tegukan, Anda akan merasakan aroma kopi yang memikat dan cita rasa yang mendalam. Dari biji kopi pilihan hingga teknik penyeduhan yang teliti, kami menghadirkan pengalaman kopi yang memanjakan indera Anda. Mari bersama-sama menikmati perjalanan melintasi berbagai nuansa rasa kopi, dari yang ringan dan fruity hingga yang kaya dan beraroma. 
       </p>
       <button type="button" className="custom__button">
         Explore Menu
@@ -24,7 +18,7 @@ const Header = () => (
     </div>
     
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header img" />
+      <img src={images.welcome} alt="header img"  style={{ width: '100%' }}/>
     </div>
   </div>
 );

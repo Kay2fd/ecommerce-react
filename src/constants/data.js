@@ -2,59 +2,70 @@ import images from './images';
 
 const koffe = [
   {
+    title: 'V60 Japanese Style',
+    price: 'Rp25,000',
+    tags: 'HOT',
+  },
+  {
+    title: 'Americano',
+    price: 'Rp17,000',
+    tags: 'ICE | HOT',
+  },
+  {
+    title: 'Espresso',
+    price: 'Rp20,000',
+    tags: 'HOT',
+  },
+  {
+    title: 'Kopi Susu',
+    price: 'Rp15,000',
+    tags: 'ICE | HOT',
+  },
+  {
+    title: 'Vietnam Drip',
+    price: 'Rp17,000',
+    tags: 'ICE | HOT',
+  },
+  {
     title: 'Caramel Macchiato',
-    price: '$56',
-    tags: 'AU | Bottle',
+    price: 'Rp25,000',
+    tags: 'ICE | HOT',
   },
   {
-    title: 'Vanilla Latte',
-    price: '$59',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'Hazelnut Latte',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Mocha Latte',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'White Chocolate Mocha',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Red Velvet',
+    price: 'Rp20,000',
+    tags: 'ICE | HOT',
   },
 ];
 
-const cocktails = [
+const food = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Nasi Goreng',
+    price: 'Rp35,000',
+    tags: 'Nasi | Ayam | Udang | Sayuran | Kecap Manis',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Ayam Geprek',
+    price: 'Rp25,000',
+    tags: 'Ayam | Sambal Pedas | Kemangi | Jeruk nipis',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    "title": "Rice Ball",
+    "price": "Rp25.000",
+    "tags": "Beras | Nori | Garam | Ayam"
+  },  
+  {
+    title: 'French Fries',
+    price: 'Rp20,000',
+    tags: 'Kentang | garam | Lada | saus tomat | Mayones',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Roti Bakar',
+    price: 'Rp20,000',
+    tags: 'Roti | Mentega | Selai | Keju | Cokelat',
   },
 ];
+
 
 const awards = [
   {
@@ -79,4 +90,4 @@ const awards = [
   },
 ];
 
-export default { koffe, cocktails, awards };
+export default { koffe, food, awards };

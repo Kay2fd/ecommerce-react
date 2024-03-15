@@ -16,6 +16,7 @@
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    padding: 15px;
 }
 
 .app__aboutus-content_about {
@@ -40,7 +41,7 @@
 
 .app__aboutus-content_koffe img {
     height: auto;
-    width: 5rem;
+    width: 7rem;
 }
 
 .app__aboutus-content_history {
@@ -93,6 +94,6 @@
     }
 
     .app__aboutus-content_about {
-        margin: 2rem 0; /* Sesuaikan nilai sesuai kebutuhan */
+        margin: 2rem 0; 
     }
 }
