@@ -1,0 +1,31 @@
+.app__barista-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.app__barista-content_text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.app__barista-name {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.app__barista-name p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32;
+    list-style: 41px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+
+.headtext_cormorant {
+    color: var(--color-golden);
+}
