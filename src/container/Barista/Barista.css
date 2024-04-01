@@ -36,11 +36,7 @@
     align-items: center;
 }
 
-.app__wrapper_img {
+.app__wrapper_img img {
+    width: 350px;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.app__barista-content_text_chef {
-    text-align: right;
 }
