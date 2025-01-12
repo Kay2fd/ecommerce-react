@@ -39,4 +39,6 @@
 .app__wrapper_img img {
     width: 350px;
     margin-top: 2rem;
+    border-radius: 67% 33% 47% 53% / 37% 45% 55% 63%;
+    transition: border-radius 0.5s ease;
 }
